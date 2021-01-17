@@ -1,0 +1,12 @@
+{application, coinbase_price_web, [
+    {description, "Coinbase Price Watcher WebAPI"},
+    {vsn, "1.0.0"},
+    {mod, {coinbase_price_web_app, []}},
+    {applications, [
+        kernel,
+        stdlib,
+        cowboy,
+        jsx,
+        coinbase_price_watcher
+    ]}
+]}.

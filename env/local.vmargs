@@ -1,0 +1,4 @@
+-boot start_sasl
+-sname coinbase_price_web
+-setcookie localcookie
+-kernel shell_history enabled
